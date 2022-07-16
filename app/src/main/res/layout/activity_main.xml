@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/giris"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Sayı Giriniz"
+        android:inputType="number"
+        android:gravity="end"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/topla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="+"
+            android:layout_weight="1"
+            android:background="@color/butonlar"/>
+
+        <Button
+            android:id="@+id/cikar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="-"
+            android:layout_weight="1"
+            android:background="@color/butonlar"/>
+
+        <Button
+            android:id="@+id/carp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="x"
+            android:layout_weight="1"
+            android:background="@color/butonlar"/>
+
+        <Button
+            android:id="@+id/bol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="/"
+            android:layout_weight="1"
+            android:background="@color/butonlar"/>
+
+        <Button
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:textFontWeight="1"
+            android:text="C"
+            android:background="@color/C"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/esit"
+        android:layout_width="419dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-3dp"
+        android:text="="
+        android:background="@color/butonlar"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="-4dp">
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:background="@color/gri">
+
+        <EditText
+            android:id="@+id/gecmis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:enabled="false"
+            android:textColor="@color/siyah"
+            android:background="@color/gri"/>
+    </ScrollView>
+
+        <Button
+            android:id="@+id/temizle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="T\nE\nM\nİ\nZ\nL\nE"
+            android:textSize="18dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginLeft="-4dp"
+            android:background="@color/C"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+    
+
+</RelativeLayout>

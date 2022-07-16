@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2C5A3</color>
+    <color name="colorPrimaryDark">#F2C5A3</color>
+    <color name="colorAccent">#F2C5A3</color>
+
+    <color name="siyah">#000000</color>
+    <color name="gri">#8E8E8E</color>
+    <color name="butonlar">#F2C5A3</color>
+    <color name="C">#97511C</color>
+</resources>
